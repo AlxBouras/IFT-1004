@@ -1,0 +1,76 @@
+Début du jeu
+
+Lorsque l'on débute une nouvelle partie, on sélectionne le nombre
+de joueurs (2 à 4) et la langue du jeu de Scrabble pour la partie (Français ou Anglais).
+Un joueur sera sélectionné au hasard afin de débuter la partie. À ce moment, 7 lettres
+seront pigées au hasard et seront placées sur son chevalet.
+
+
+
+Déroulement d’une partie
+
+Le premier joueur combine deux ou plusieurs de ses lettres pour former un mot et les place sur le plateau
+de manière horizontale ou verticale avec une lettre sur la case centrale, marquée d'une étoile. Cette case
+faisant office de case « mot compte double », la valeur du mot posé est multipliée par deux.
+Les mots diagonaux ne sont pas autorisés.
+
+Le tour d'un joueur est complété en comptant son score pour ce tour. Ensuite, autant de nouvelles lettres
+sont tirées que le joueur en a joué; les joueurs auront donc toujours 7 lettres sur leur chevalet,
+tant qu'il reste suffisamment de lettres.
+
+Le second joueur, puis chacun à son tour, ajoute une ou plusieurs lettres à celles déjà jouées pour former
+de nouveaux mots. Toutes les lettres jouées lors d'un tour doivent être placées en une seule ligne sur le
+plateau, pour former au moins un mot complet. Si, en même temps, ils touchent a d'autres lettres dans des
+rangées adjacentes, celles-ci doivent aussi former des mots complets, sous forme de mots croisés, avec toutes
+ces lettres. Le joueur obtient le score complet pour tous les mots formés ou modifiés à son tour.
+
+
+De nouveaux mots peuvent être formés par :
+
+- L'ajout d'une ou plusieurs lettres à un mot ou à des lettres déjà sur le plateau.
+
+- En plaçant d'un mot perpendiculaire à un mot déjà sur le plateau. Le nouveau mot doit utiliser l'une des
+  lettres déjà sur le plateau ou doit y ajouter une lettre.
+
+- En plaçant un mot complet parallèlement à un mot déjà joué pour que les lettres adjacentes forment aussi
+  des mots complets.
+
+
+Aucune lettre ne peut être déplacée ou replacée après qu'elle a été jouée et que son score a été comptabilisé.
+
+Un joueur peut utiliser un tour pour échanger toutes, certaines ou aucune de ses lettres. Pour ce faire,
+il sélectionne son (ses) lettre(s) rejetée(s). Ensuite, un nombre égal de lettres seront tirées.
+Cela termine son tour.
+
+La partie se termine lorsque toutes les lettres ont été tirées ou encore quand il reste moins de deux joueurs.
+
+
+
+Limite de temps
+
+Chacun des joueurs dispose d'une limite de temps de 1 minute de jeu par tour.
+Chaque joueur dispose de 25 minutes de jeu total. S'il dépasse ce temps de jeu, il perd 10 points.
+Il perd également 10 points pour chaque minute supplémentaire de je jeu accumulée.
+
+
+
+Décompte des points
+
+Lorsque un mot est placé sur le plateau, sa valeur est calculée comme suit :
+on additionne la somme des valeurs de chaque lettre, en tenant compte des éventuelles cases "lettre compte double" ou "lettre compte triple" sur lesquelles
+sont posées ces lettres,puis on multiplie cette somme en tenant compte des éventuelles cases "mot compte double" ou "mot compte triple" sur lesquelles est posé ce mot.
+Si le mot passe sur deux cases "mot compte double", sa valeur est multipliée par 4 ("quadruple"). Si le mot passe sur deux cases "mot compte triple",
+sa valeur est multipliée par 9 ("nonuple"). Si le mot posé forme simultanément d'autres mots, la valeur de ces mots est également comptabilisée,
+puis on additionne la valeur de tous les mots formés.
+
+L'effet multiplicateur d'une case n'est pris en compte que pour le(s) mot(s) posé(s) en premier sur cette case.
+Aux coups suivants, seule la valeur de la lettre posée sur la case est prise en compte.
+
+
+
+Autres informations:
+
+Le jeu se compose notamment de:
+un plateau de 225 cases (15 cases sur 15)
+100 jetons (100 lettres)
+chevalets sur lesquels les lettres des joueurs sont affichées
